@@ -1,162 +1,38 @@
-# Análisis de Calificaciones
+# 🔢 Rating Analysis
 Este proyecto realiza un análisis exploratorio de las calificaciones dadas por los clientes a diferentes productos de supermercados, usando métricas de estadística descriptiva y tablas dinámicas junto a gráficos que permiten identificar tendencias, patrones y diferencias significativas en los datos. 
 
 El objetivo es en primer lugar realizar una introducción de la base de datos describiendo aspectos clave observados sobre los productos vendidos y los supermercados que los venden. En segundo lugar, focalizando más en las calificaciones dadas por los clientes a los productos, se trata de identificar qué características de productos y tiendas tendrían que combinarse para alcanzar la tienda "ideal" logrando la máxima valoración posible.
 
-## Estructura del Proyecto
+## 📂 Estructura del Proyecto
 
-        ├── Data.xlsx                 # Datos brutos y la transición a datos limpios
-        ├── Dashboard.xlsx       # Creación del dashboard
-        ├── Analysis.xlsx           # Análisis exploratorio y principales resultados
-        ├── README.md          # Descripción del proyecto
+        ├── Data.xlsx       # Datos brutos y la transición a datos limpios
+        ├── Analysis.xlsx       # Análisis exploratorio y principales resultados
+        ├── Dashboard.xlsx       # Creación del dashboard final
+        ├── README.md       # Descripción del proyecto
 
-## Instalación y Requisitos
+## 💻 Instalación y Requisitos
 Este proyecto usa la versión 16.44 de Excel 
 
-## Resultados y Conclusiones
+## 📊 Resultados y Conclusiones
 - **Conclusiones del Análisis Exploratorio**
 
     - La visibilidad media de los productos es muy baja.
-    - Alrededor del 70% de los productos están valorados como "Bueno".
+    - Alrededor del 70% de los productos están valorados como "Very Good".
     - Los productos están igual de bien valorados en las tiendas más antiguas como en las más nuevas.
-    - Los 7 tipos de productos con los que más se recauda son: Fruits and Vegetables, Snack Foods, Household, Frozen Foods, Dairy, Canned, Baking Goods. 
+    - Los 7 tipos de productos con los que más se recauda son: Fruits and Vegetables, Snack Foods, Household, Frozen Foods, Dairy, Canned y Baking Goods. 
 
 - **Resultados para alcanzar la tienda "ideal"**
 
-    - La tienda sería una tienda pequeña, con un tipo de ubicación "Tier 3" y tipo de tienda "Supermaket Type 4". 
-    - Para el detalle de las características (contenido de grasa, peso, visibilidad) de los 7 tipos de productos y el % de productos con calificación "Bueno" que se alcanzaría ir al Dashboard.
+    - La tienda sería una de tamaño pequeño, con un tipo de ubicación "Tier 3" y tipo de tienda "Supermaket Type 4". 
+    - Para el detalle de las características (contenido de grasa, peso, visibilidad) de los 7 tipos de productos y el % de productos con calificación "Very Good" que se alcanzaría ir al Dashboard.
 
-## Próximos Pasos
+## 💡Próximos Pasos
 
-Si tuviese los precios de los productos 
-Las razones de las calificaciones malas
+- Sería interesante disponer de los precios de los productos. Se podría descubrir si existe relación entre el precio de los productos y quizás la valoración de los mismos. También sería interesante disponer del coste de los productos en el último periodo. El análisis está enfocado a que en la nueva tienda se vendan aquellos productos cuya recaudación en el último periodo ha sido mayor pero quizás alguno de ellos tendría un coste asociado también muy alto. Considero que el análisis se podría perfeccionar seleccionando aquellos productos para la nueva tienda cuyo beneficio fuese el mayor. 
+- Conocer las razones de las calificaciones dadas por los clientes podría aclarar el análisis. Sería muy útil conocer el por qué de las calificaciones malas para poder también focalizar el análisis en esos puntos, pues sería interesante conocer si los problemas provienen del aspecto de la tienda, del dependiente, de la calidad de los productos, del precio etc. y poder establecer estrategias concretas para tratar de mitigar esas disconformidades.
 
-## Contribuciones
+## 🤝 Contribuciones
 Agradezco cualquier contribución que pueda mejorar el proyecto. Si tienes alguna idea que aportar no dudes en contactar conmigo!
 
-## Autor 
+## 👤 Autor 
 **Raquel Sánchez** - https://github.com/raquelscv 
-
-
-
-
-
-
-- **Título del Proyecto**
-
-    - Debe ser breve y descriptivo.
-
-    - Incluye un emoji o un subtítulo para darle un toque personal.
-
-    - Ejemplo:
-
-        ```markdown
-        # 📊 Análisis de Ventas: Exploración y Modelado de Datos
-        ```
-
-- **Descripción del Proyecto**
-
-   - Explica en qué consiste tu proyecto y cuál es su objetivo.
-
-   - Menciona brevemente el contexto del análisis y qué problema estás resolviendo.
-
-   - Incluye qué técnicas o enfoques se usaron para llevar a cabo el análisis.
-
-   - Ejemplo:
-
-        ```markdown
-        ## 📖 Descripción
-        Este proyecto realiza un análisis exploratorio y predictivo de las ventas de una empresa minorista. El objetivo es identificar tendencias, patrones y realizar predicciones basadas en datos históricos usando técnicas de modelado estadístico y *machine learning*.
-
-- **Estructura del Proyecto**
-
-   - Describe la organización de los archivos y carpetas en tu proyecto.
-
-   - Esto ayuda a otros usuarios a navegar y entender mejor el flujo de trabajo.
-
-   - Ejemplo:
-
-        ```markdown
-        ## 🗂️ Estructura del Proyecto
-
-        ├── data/                # Datos crudos y procesados
-        ├── notebooks/           # Notebooks de Jupyter con el análisis
-        ├── src/                 # Scripts de procesamiento y modelado
-        ├── results/             # Gráficos y archivos de resultados
-        ├── README.md            # Descripción del proyecto
-        ```
-
-- **Instalación y Requisitos**
-
-   - Lista las bibliotecas, herramientas o dependencias necesarias para ejecutar tu proyecto.
-
-   - Proporciona instrucciones para instalar las dependencias, idealmente usando un entorno virtual.    
-
-   - Ejemplo:
-        ```markdown
-        ## 🛠️ Instalación y Requisitos
-        Este proyecto usa Python 3.8 y requiere las siguientes bibliotecas:
-
-        - pandas
-        - numpy
-        - matplotlib
-        - seaborn
-        - scikit-learn
-        ```
-
-
-- **Resultados y Conclusiones**
-
-   - Presenta un resumen de los hallazgos más importantes.
-
-   - Puedes incluir gráficos o tablas relevantes que apoyen las conclusiones.
-
-   - Explica cómo los resultados pueden ser útiles para los usuarios o tomadores de decisiones.
-
-   - Ejemplo:
-
-        ```markdown
-        ## 📊 Resultados y Conclusiones
-        - Identificamos un aumento estacional en las ventas durante los meses de noviembre y diciembre.
-        - El modelo predictivo alcanzó un 85% de precisión en la estimación de ventas futuras.
-        - El análisis sugiere que los descuentos y promociones tienen un impacto directo en el comportamiento de compra de los clientes.
-        ```
-
-- **Próximos Pasos**
-
-   - Si el proyecto sigue en desarrollo, menciona qué queda por hacer o mejorar.
-
-   - También puedes mencionar ideas para futuros análisis o expansiones del proyecto.
-
-    - Ejemplo:
-
-        ```markdown
-        ## 🔄 Próximos Pasos
-        - Refinar el modelo predictivo usando más datos históricos.
-        - Implementar técnicas avanzadas de feature engineering para mejorar la precisión.
-        - Explorar el impacto de factores externos como campañas de marketing y eventos en las ventas.
-        ```
-
-- **Contribuciones**
-
-   - Indica si aceptas contribuciones y cómo otros pueden colaborar con el proyecto.
-
-   - Ejemplo:
-
-        ```markdown
-        ## 🤝 Contribuciones
-        Las contribuciones son bienvenidas. Si deseas mejorar el proyecto, por favor abre un pull request o una issue.
-        ```
-
-
-
-- **Autores y Agradecimientos**
-
-   - Menciona a los autores del proyecto y da crédito a quienes te ayudaron o inspiraron en el desarrollo.
-
-   - Ejemplo:
-
-        ```markdown
-        ## ✒️ Autores
-        - **Juan Pérez** - [@juanperez](https://github.com/juanperez)
-        ```
