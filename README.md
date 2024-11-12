@@ -1,11 +1,32 @@
-# ProyectoExcel
-En este proyecto voy a realizar un análisis a partir de una base de datos con información de productos de supermercado
+# Análisis de Calificación 
+Este proyecto realiza un análisis exploratorio de las calificaciones dadas por los clientes a diferentes productos de supermercados, usando métricas de estadística descriptiva y tablas dinámicas junto a gráficos que permiten identificar tendencias, patrones y diferencias significativas en los datos. 
 
-# 📝 Guía para Escribir un Buen README en nuestros Proyectos
+El objetivo es en primer lugar realizar una introducción de la base de datos describiendo aspectos clave observados sobre los productos vendidos y los supermercados que los venden. En segundo lugar, focalizando más en las calificaciones dadas por los clientes a los productos, se trata de identificar qué características de productos y tiendas tendrían que combinarse para alcanzar la tienda "ideal" logrando la máxima valoración posible.
 
-Un README es la primera impresión que otros tendrán de tu proyecto. Debe ser claro, conciso y proporcionar toda la información necesaria para entender y ejecutar tu análisis. A continuación os explicamos las secciones clave que debe incluir y algunos consejos sobre cómo redactarlo:
+## Estructura del Proyecto
 
-## 📋 Estructura Básica de un README
+        ├── Data.xlsx                 # Datos brutos y la transición a datos limpios
+        ├── Dashboard.xlsx       # Creación del dashboard
+        ├── Analysis.xlsx           # Análisis exploratorio y principales resultados
+        ├── README.md          # Descripción del proyecto
+
+## Instalación y Requisitos
+Este proyecto usa la versión 16.44 de Excel 
+
+## Resultados y Conclusiones
+
+## Próximos Pasos
+
+## Contribuciones
+Agradezco cualquier contribución que pueda mejorar el proyecto. Si tienes alguna idea que aportar no dudes en contactar conmigo!
+
+## Autor 
+**Raquel Sánchez** - https://github.com/raquelscv 
+
+
+
+
+
 
 - **Título del Proyecto**
 
