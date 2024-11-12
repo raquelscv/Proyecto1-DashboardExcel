@@ -1,4 +1,4 @@
-# Análisis de Calificación 
+# Análisis de Calificaciones
 Este proyecto realiza un análisis exploratorio de las calificaciones dadas por los clientes a diferentes productos de supermercados, usando métricas de estadística descriptiva y tablas dinámicas junto a gráficos que permiten identificar tendencias, patrones y diferencias significativas en los datos. 
 
 El objetivo es en primer lugar realizar una introducción de la base de datos describiendo aspectos clave observados sobre los productos vendidos y los supermercados que los venden. En segundo lugar, focalizando más en las calificaciones dadas por los clientes a los productos, se trata de identificar qué características de productos y tiendas tendrían que combinarse para alcanzar la tienda "ideal" logrando la máxima valoración posible.
@@ -14,8 +14,22 @@ El objetivo es en primer lugar realizar una introducción de la base de datos de
 Este proyecto usa la versión 16.44 de Excel 
 
 ## Resultados y Conclusiones
+- **Conclusiones del Análisis Exploratorio**
+
+    - La visibilidad media de los productos es muy baja.
+    - Alrededor del 70% de los productos están valorados como "Bueno".
+    - Los productos están igual de bien valorados en las tiendas más antiguas como en las más nuevas.
+    - Los 7 tipos de productos con los que más se recauda son: Fruits and Vegetables, Snack Foods, Household, Frozen Foods, Dairy, Canned, Baking Goods. 
+
+- **Resultados para alcanzar la tienda "ideal"**
+
+    - La tienda sería una tienda pequeña, con un tipo de ubicación "Tier 3" y tipo de tienda "Supermaket Type 4". 
+    - Para el detalle de las características (contenido de grasa, peso, visibilidad) de los 7 tipos de productos y el % de productos con calificación "Bueno" que se alcanzaría ir al Dashboard.
 
 ## Próximos Pasos
+
+Si tuviese los precios de los productos 
+Las razones de las calificaciones malas
 
 ## Contribuciones
 Agradezco cualquier contribución que pueda mejorar el proyecto. Si tienes alguna idea que aportar no dudes en contactar conmigo!
