@@ -1,7 +1,7 @@
-# 🔢 Rating Analysis
-Este proyecto realiza un análisis exploratorio de las calificaciones dadas por los clientes a diferentes productos de supermercados, usando métricas de estadística descriptiva y tablas dinámicas junto a gráficos que permiten identificar tendencias, patrones y diferencias significativas en los datos. 
+# 🔢 Rating and Sales Analysis
+Este proyecto realiza un análisis exploratorio de las ventas y calificaciones dadas por los clientes a diferentes productos de supermercados, usando métricas de estadística descriptiva y tablas dinámicas junto a gráficos que permiten identificar tendencias, patrones y diferencias significativas en los datos. 
 
-El objetivo es en primer lugar realizar una introducción de la base de datos describiendo aspectos clave observados sobre los productos vendidos y los supermercados que los venden. En segundo lugar, focalizando más en las calificaciones dadas por los clientes a los productos, se trata de identificar qué características de productos y tiendas tendrían que combinarse para alcanzar la tienda "ideal" logrando la máxima valoración posible.
+El objetivo es en primer lugar realizar una introducción de la base de datos describiendo aspectos clave observados sobre los productos vendidos y los supermercados que los venden. En segundo lugar, focalizando más en las calificaciones dadas por los clientes a los productos, se trata de identificar qué características de productos y tiendas tendrían que combinarse para alcanzar la tienda "ideal" logrando la máxima valoración posible de sus productos, dentro de que sean productos que tienen salida.
 
 ## 📂 Estructura del Proyecto
 
